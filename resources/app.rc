@@ -1,0 +1,40 @@
+#include <windows.h>
+#include "resource.h"
+#include "version.h"
+#pragma code_page(65001)
+101 ICON "imago.ico"
+1 RT_MANIFEST IMAGO_MANIFEST_FILE
+1 VERSIONINFO
+ FILEVERSION IMAGO_VERSION_RESOURCE
+ PRODUCTVERSION IMAGO_VERSION_RESOURCE
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Imago contributors\0"
+      VALUE "FileDescription", "Imago — Screenshot and screen recording\0"
+      VALUE "FileVersion", IMAGO_VERSION "\0"
+      VALUE "InternalName", "Imago\0"
+      VALUE "OriginalFilename", "Imago.exe\0"
+      VALUE "ProductName", "Imago\0"
+      VALUE "ProductVersion", IMAGO_VERSION "\0"
+      VALUE "LegalCopyright", "Copyright (c) 2026 Imago contributors\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
+
+IDD_SETTINGS DIALOGEX 0, 0, 380, 310
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_CLIPCHILDREN
+CAPTION "Imago 设置"
+FONT 9, "Segoe UI"
+BEGIN
+END

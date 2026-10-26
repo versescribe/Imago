@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Imago</title>
+  <desc id="desc">轻巧的 Windows 原生截图、录屏与贴图工具</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b31"/><stop offset="1" stop-color="#162e4b"/></linearGradient>
+    <linearGradient id="accent" x2="1" y2="1"><stop stop-color="#77ddff"/><stop offset="1" stop-color="#4387ff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1070" cy="15" r="210" fill="#397ed4" opacity=".09"/>
+  <circle cx="1090" cy="310" r="170" fill="#53c5e2" opacity=".07"/>
+  <g transform="translate(66 80)">
+    <rect width="112" height="112" rx="28" fill="url(#accent)"/>
+    <path d="M30 43V30h22M82 69v13H60M44 82H30V60M68 30h14v22" fill="none" stroke="#102440" stroke-width="6" stroke-linecap="round"/>
+    <rect x="45" y="45" width="22" height="22" rx="5" fill="#102440"/>
+  </g>
+  <text x="210" y="130" fill="#f5faff" font-family="Segoe UI,Arial,sans-serif" font-weight="600" font-size="64" letter-spacing="-2">Imago</text>
+  <text x="214" y="181" fill="#b8cde4" font-family="Segoe UI,Microsoft YaHei,sans-serif" font-size="24">截图、录屏、贴图，留住此刻。</text>
+  <text x="68" y="265" fill="#8ba4c0" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="3">NATIVE WINDOWS · C++20 · OPEN SOURCE</text>
+  <g transform="translate(835 66)" fill="none" stroke="url(#accent)" stroke-width="2">
+    <rect width="236" height="150" rx="14" opacity=".3"/>
+    <rect x="32" y="30" width="236" height="150" rx="14" opacity=".65"/>
+    <path d="M71 72h27m-27 0v26m158 39h-27m27 0v-26" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="151" cy="105" r="19" fill="#71cfff" stroke="none"/>
+  </g>
+</svg>

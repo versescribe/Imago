@@ -1,0 +1,31 @@
+name: 问题反馈
+description: 报告可复现的问题
+title: '[Bug] '
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Imago 版本
+      placeholder: 0.0.1
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 系统与环境
+      description: Windows 版本、显示器数量／缩放；录屏问题请注明显卡和声音设备。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤与实际结果
+      description: 如附截图或录像，请先移除私人信息。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true

@@ -1,0 +1,16 @@
+name: 改进建议
+description: 描述实际使用中遇到的需求
+title: '[Feature] '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 希望解决什么问题
+      description: 请描述使用场景，以及现有操作哪里不方便。
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 建议的交互或替代方案
+      description: Imago 优先保持原生、轻量和少依赖。

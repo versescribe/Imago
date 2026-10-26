@@ -1,0 +1,6 @@
+#pragma once
+// Generated from VERSION by CMake; do not edit the generated header.
+#define IMAGO_VERSION "@PROJECT_VERSION@"
+#define IMAGO_VERSION_W L"@PROJECT_VERSION@"
+#define IMAGO_VERSION_RESOURCE @PROJECT_VERSION_MAJOR@,@PROJECT_VERSION_MINOR@,@PROJECT_VERSION_PATCH@,0
+#define IMAGO_MANIFEST_FILE "@CMAKE_CURRENT_BINARY_DIR@/generated/app.manifest"
